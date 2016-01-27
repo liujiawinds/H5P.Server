@@ -9,7 +9,7 @@
  - KEY
  API密钥(32位数字或英文字符)，登录商户平台的[API安全](https://pay.weixin.qq.com/index.php/account/api_cert)中设置。
  - NOTIFY_URL
- 商户号，订单通知URL地址。
+ 订单通知URL地址。
 2. 部署服务器后访问index.php获取订单，需要提交total参数(单位为元)，如：
 [http://demo.dcloud.net.cn/payment/wxpayv3.HBuilder/?total=1](http://demo.dcloud.net.cn/payment/wxpayv3.HBuilder/?total=1)
 这是可用于生成在HBuilder调试基座可使用的订单示例地址，其中total值为要支付的金额。
